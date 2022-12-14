@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1063364052605",
+    "project_id": "dyaju-b502c",
+    "storage_bucket": "dyaju-b502c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063364052605:android:75f5cf82b667f127d4d314",
+        "android_client_info": {
+          "package_name": "com.tanay.sellersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063364052605-mri43p4p9kt4cb5k00rhk1ip0kiitckm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyfLsRsySpciq5f43y_DszRj4vegI7yNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063364052605-mri43p4p9kt4cb5k00rhk1ip0kiitckm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063364052605:android:a4848470bf8397c3d4d314",
+        "android_client_info": {
+          "package_name": "com.tanay.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063364052605-mri43p4p9kt4cb5k00rhk1ip0kiitckm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyfLsRsySpciq5f43y_DszRj4vegI7yNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063364052605-mri43p4p9kt4cb5k00rhk1ip0kiitckm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
