@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:user_app/models/sellers.dart';
-import 'package:user_app/widgets/info_design.dart';
+import 'package:user_app/widgets/sellers_design.dart';
 import 'package:user_app/widgets/my_drawer.dart';
 import 'package:user_app/widgets/progress_bar.dart';
 
@@ -66,8 +66,10 @@ class _HomeScreenState extends State<HomeScreen> {
             tileMode: TileMode.clamp,
           )),
         ),
-        title: Text(
-          sharedPreferences!.getString("name")!,
+        title: const Text(
+          "Dyaju",
+          style: TextStyle(fontSize: 45, fontFamily: "Signatra"),
+
         ),
         centerTitle: true,
       ),
@@ -134,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                            snapshot.data!.docs[index].data()! as Map<String,dynamic>
                          );
                          //design for sellers-cafes-restaurants
-                         return InfoDesignWidget(
+                         return SellersDesignWidget(
                            model: sModel,
                            context: context,
                          );
@@ -148,3 +150,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
